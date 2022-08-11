@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+}
+
+nav{
+    background-color: #000;
+    height: 80px;
+}
+
+.logo{
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.list-item{
+    margin-top: 25px;
+    color: white;
+    margin-left: 70px;
+}
+
+.list-item:hover{
+    color: blue;
+    font-size: 20px;
+}
+
+.button-small{
+    float: right;
+    margin-right: 50px;
+    margin-top: -20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #8D3DAF;
+    cursor: pointer;
+}
+
+.button-small:hover{
+    color: blue;
+}
+
+.hero{
+    background-image: url(./assets/bg.png);
+    /* height: 20vh; */
+    height: 1150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-heading{
+    text-align: center;
+    font-size: 100px;
+    /* margin-top: auto; */
+    color: #fff;
+    /* margin-top: 400px; */
+}
+
+h1{
+    position: relative;
+    top: 250px;
+}
+
+.hero-description{
+    /* position: absolute; */
+    margin-top: 250px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.bottom-button{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+button{
+    padding: 10px 50px;
+    font-size: 15px;
+    margin-top: 55px;
+    background-color: #8D3DAF;
+    color: #fff; 
+    border-radius: 10px; 
+ } 
+
+
+
